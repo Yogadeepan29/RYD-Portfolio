@@ -25,7 +25,7 @@ const Hero = () => {
 
   return (
     <section className="mb-10" id="hero">
-      <div className="mx-auto pt-20 max-w-7xl lg:mt-20 w-full p-4 lg:p-8 lg:px-28 lg:pt-28 flex items-center justify-center min-h-screen lg:min-h-full">
+      <div className="mx-auto pt-20 max-w-7xl md:mt-20 w-full p-4 md:p-8 md:px-28 md:pt-28 flex items-center justify-center min-h-screen md:min-h-full">
         <motion.div
           key={darkMode ? "dark" : "light"}
           initial={{ opacity: 0, y: 50 }}
